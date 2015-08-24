@@ -51,12 +51,12 @@
                                 value="plugin.link.enablerconfig.description"/>
                     </link>
                     <link>
-                        <type value="course_tool"/>
+                        <type value="system_tool"/>
+                        <handle value="enablersys"/>
                         <name value="plugin.link.enabler.name"/>
-                        <url value="Tool.action"/>
-                        <handle value="enabler"/>
-                        <description
-                                value="plugin.link.enabler.description"/>
+                        <navhandle value="" />
+                        <description value="plugin.link.enabler.description"/>
+                        <url value="Enabler.action"/>
                         <entitlement-uid value="atd.enabler.admin.MODIFY" />
                     </link>
                 </links>
