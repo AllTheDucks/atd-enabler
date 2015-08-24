@@ -11,10 +11,10 @@
 
 <bbNG:genericPage bodyClass="normalBackground"
                   navItem="atd-enabler-app-nav-enabler">
-
   <stripes:form beanclass="com.alltheducks.enabler.stripes.EnablerAction">
     <!-- Don't use stripes:hidden here, otherwise stripes looks for the bean field with that name. -->
-    <input type="hidden" name="setCourseStatus"/>
+    <input type="hidden" name="saveCourseStatus"/>
+    <stripes:hidden name="batchUid"></stripes:hidden>
     <bbNG:dataCollection>
       <bbNG:step title="${statusTitle}">
         <bbNG:dataElement label="${courseNameLabel}">
