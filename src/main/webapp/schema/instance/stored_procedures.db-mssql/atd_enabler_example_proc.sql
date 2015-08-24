@@ -1,4 +1,4 @@
--- CREATE PROCEDURE myu_stub_example_proc
+-- CREATE PROCEDURE atd_enabler_example_proc
 -- (
 --   @aparam VARCHAR
 -- )

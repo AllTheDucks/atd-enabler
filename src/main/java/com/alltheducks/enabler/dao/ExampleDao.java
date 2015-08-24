@@ -1,4 +1,4 @@
-package edu.myinst.dao;
+package com.alltheducks.enabler.dao;
 
 import blackboard.persist.Id;
 import blackboard.persist.dao.impl.SimpleDAO;
@@ -6,7 +6,7 @@ import blackboard.persist.impl.SimpleSelectQuery;
 import blackboard.persist.impl.mapping.DbObjectMap;
 import blackboard.persist.impl.mapping.annotation.AnnotationMappingFactory;
 import blackboard.platform.query.Criteria;
-import edu.myinst.model.Example;
+import com.alltheducks.enabler.model.Example;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

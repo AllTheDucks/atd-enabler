@@ -1,4 +1,4 @@
-package edu.myinst.model;
+package com.alltheducks.enabler.model;
 
 import blackboard.data.AbstractIdentifiable;
 import blackboard.data.user.User;
@@ -10,7 +10,7 @@ import blackboard.persist.impl.mapping.annotation.Table;
 
 import java.util.Date;
 
-@Table("myu_stub_example")
+@Table("atd_enabler_example")
 public class Example extends AbstractIdentifiable {
 
     public static final DataType DATA_TYPE = new DataType(Example.class);
