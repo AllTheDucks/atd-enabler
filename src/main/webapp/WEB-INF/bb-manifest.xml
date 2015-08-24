@@ -50,6 +50,15 @@
                         <description
                                 value="plugin.link.enablerconfig.description"/>
                     </link>
+                    <link>
+                        <type value="course_tool"/>
+                        <name value="plugin.link.enabler.name"/>
+                        <url value="Tool.action"/>
+                        <handle value="enabler"/>
+                        <description
+                                value="plugin.link.enabler.description"/>
+                        <entitlement-uid value="atd.enabler.admin.MODIFY" />
+                    </link>
                 </links>
             </application>
         </application-defs>
